@@ -51,6 +51,7 @@ def main():
 def app_loopback():
     """ Simple video loopback """
     webrtc_streamer(
+        time.sleep(3)
         key="loopback",
         mode=WebRtcMode.SENDRECV,
         client_settings=WEBRTC_CLIENT_SETTINGS,
