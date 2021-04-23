@@ -4,6 +4,7 @@ import queue
 import urllib.request
 from pathlib import Path
 from typing import List, NamedTuple
+import time
 
 try:
     from typing import Literal
